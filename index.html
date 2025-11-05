@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luxelyn designs</title>
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('banner.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+    color: blueviolet;
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.cta-btn {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Shop Section */
+.shop {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.shop h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax (250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.product-card p {
+    margin-bottom: 15px;
+    color: #ff6600;
+    font-weight: bold;
+}
+.product-card .btn {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+.contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact form input, .contact form textarea {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.contact form button {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="#">LUXELYN DESIGNS</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Homepage Banner Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Crafting Your Personal Style</h2>
+            <p>Exclusive collection of shoes & handbags for every occasion.</p>
+            <a href="#shop" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="lux1.jpg" alt="Classic Black Cross-Strap Sandals">
+                    <h3>Classic Black Cross-Strap Sandals</h3>
+                    <p>$18.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux2.jpg" alt="Elegant Brown Cross-Strap footwear">
+                    <h3>Elegant Brown Cross-Strap footwear</h3>
+                    <p>$10.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux3.jpg" alt="Comfort Fit Navy Slide">
+                    <h3>Comfort Fit Navy Slide</h3>
+                    <p>$10.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux4.jpg" alt="Luxelyn Burgundy Velvet Slide">
+                    <h3>Luxelyn Burgundy Velvet Slide</h3>
+                    <p>$30.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux5.jpg" alt="Croc-Textured Buckle footwear">
+                    <h3>Croc-Textured Buckle footwear</h3>
+                    <p>$20.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux6.jpg" alt="Elegant Purple Suede Slides">
+                    <h3>Elegant Purple Suede Slides</h3>
+                    <p>$10.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux7.jpg" alt="Minimalist Brown Suede Slides">
+                    <h3>Minimalist Brown Suede Slides</h3>
+                    <p>$30.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux8.jpg" alt="Hermes-Inspired Black Slide Sandals">
+                    <h3>Hermes-Inspired Black Slide Sandals</h3>
+                    <p>$20.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux9.jpg" alt="Chic Brown Cross-Strap Slides">
+                    <h3>Chic Brown Cross-Strap Slides</h3>
+                    <p>$30.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="lux10.jpg" alt="Classic Tan Leather Cross-Strap footwear">
+                    <h3>Classic Tan Leather Cross-Strap footwear</h3>
+                    <p>$40.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Luxelyn Designs, we handpick the finest shoes and handbags to bring you the best styles, comfort, and quality. Our goal is to make you feel confident and stylish with every purchase.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Luxelyn Designs. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

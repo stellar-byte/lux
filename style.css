@@ -7,7 +7,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #1b1919;
+   background-image: url("lux1.jpg");
     color: #333;
 }
 
@@ -20,7 +20,7 @@ body {
 /* Header */
 header {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 10px 0;
 }
 header .container {
@@ -50,7 +50,7 @@ header nav ul li a {
     background: url('banner.jpg') no-repeat center center/cover;
     padding: 100px 0;
     text-align: center;
-    color: blueviolet;
+    color: white;
 }
 .hero h2 {
     font-size: 3rem;
@@ -145,7 +145,16 @@ header nav ul li a {
     font-size: 1.2rem;
     border-radius: 5px;
 }
+input  {
+width: 100%;
+padding: 12px;
+margin: 10px;
+box-sizing: border-box;
+border-radius: 800px;
+border:2px  red;
+ 
 
+}
 /* Footer */
 footer {
     background-color: #333;
